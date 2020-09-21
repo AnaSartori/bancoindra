@@ -1,0 +1,22 @@
+<header>
+    <mat-toolbar class="header mat-elevation-z4">
+        <span>
+            <a routerLink="/">
+                <img class="logo" src="assets/img/logotipo_indra.png" alt="logo">
+            </a>
+        </span>
+        <button mat-button>Institucional</button>
+        <button mat-button>Produtos</button>
+        <button mat-button>Banco Indra para você</button>
+        <button mat-button>Cartões</button>
+        <button mat-button>Pesquisar</button>
+        <span class="space"></span>
+        <button mat-button (click)="navigateToLogin()">
+            Acesse sua conta
+        </button>
+        <span>|</span>
+        <button mat-button (click)="navigateToNewAccount()">
+            Abra sua conta
+        </button>        
+    </mat-toolbar>
+</header>

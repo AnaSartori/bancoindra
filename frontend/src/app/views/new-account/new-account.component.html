@@ -1,0 +1,50 @@
+<div class="container">
+    <mat-card class="card">
+        <mat-card-title>
+            Abrir Conta
+        </mat-card-title>
+        <form [formGroup]="clienteForm">
+            <mat-form-field>
+                <input type="text" matInput placeholder="Nome" 
+                formControlName="nome" name="nome" required>
+            </mat-form-field>
+            <mat-form-field>
+                <input type="text" matInput placeholder="CPF" 
+                formControlName="cpf" name="cpf" mask="000.000.000-00" required>
+            </mat-form-field>
+            <mat-form-field>
+                <input type="cellphone" matInput placeholder="Celular" 
+                formControlName="celular" name="celular" mask="(00)00000-0000" required>
+            </mat-form-field>
+            <mat-form-field>
+                <input type="email" matInput placeholder="E-mail" 
+                formControlName="email" name="email" required> 
+            </mat-form-field>
+            <mat-form-field>
+                <input type="date" matInput placeholder="Data de Nascimento" 
+                formControlName="dataNascimento" name="dataNascimento" required>
+            </mat-form-field>
+            <mat-form-field>
+                <input type="password" matInput placeholder="Senha" 
+                formControlName="senha" name="senha" required>
+            </mat-form-field>
+            <mat-form-field>
+                <input type="password" matInput placeholder="Confirmação de Senha" 
+                formControlName="confirmacaoSenha" required>
+            </mat-form-field>
+            <section>
+                <mat-checkbox name="termos" formControlName="termos">
+                    Aceito os termos.
+                </mat-checkbox>
+            </section>
+            <section>
+                <mat-checkbox name="receberInfo" formControlName="receberInfo">
+                    Desejo receber mais informações sobre Investimentos via SMS ou E-mail.
+                </mat-checkbox>
+            </section>
+        </form>
+        <button mat-raised-button (click)="createAccount()" [disabled]="clienteForm.invalid">
+            Enviar
+        </button> 
+    </mat-card>
+</div>

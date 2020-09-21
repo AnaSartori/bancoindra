@@ -1,0 +1,20 @@
+<div class="container">
+    <mat-card class="card">
+        <mat-card-title>
+            Acesse sua Conta
+        </mat-card-title>
+        <form [formGroup]="loginForm">
+            <mat-form-field>
+                <input type="text" matInput placeholder="Agencia" 
+                formControlName="agencia" name="agencia" mask="0000" required>
+            </mat-form-field>
+            <mat-form-field>
+                <input type="text" matInput placeholder="Conta" 
+                formControlName="conta" name="conta" mask="00000-0" required>
+            </mat-form-field> 
+        </form>
+        <button mat-raised-button (click)="login()" [disabled]="loginForm.invalid">
+            Entrar
+        </button> 
+    </mat-card>
+</div>

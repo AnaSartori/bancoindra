@@ -1,0 +1,66 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Ana Carolina Sartori",
+      "cpf": "25388130002",
+      "celular": "(11)98754-4545",
+      "email": "ana@teste.com",
+      "dataNascimento": "23/11/1993",
+      "senha": "123asd",
+      "termos": true,
+      "receberInfo": true
+    },
+    {
+      "id": 2,
+      "nome": "José Silva",
+      "cpf": "10836930002",
+      "celular": "(11)94455-1212",
+      "email": "jose@teste.com",
+      "dataNascimento": "13/10/1990",
+      "senha": "456ttt",
+      "termos": true,
+      "receberInfo": true
+    },
+    {
+      "id": 3,
+      "nome": "Maria de Oliveira",
+      "cpf": "12306310033",
+      "celular": "(11)91111-7777",
+      "email": "maria@teste.com",
+      "dataNascimento": "01/05/2000",
+      "senha": "asd456",
+      "termos": true,
+      "receberInfo": false
+    },
+    {
+      "nome": "teste form",
+      "cpf": "42129896898",
+      "celular": "11999894347",
+      "email": "karolzynha_ps@hotmail.com",
+      "dataNascimento": "2020-09-06",
+      "termos": true,
+      "receberInfo": false,
+      "senha": "rtetert",
+      "confirmacaoSenha": "tertertert",
+      "id": 4
+    }
+  ],
+  "contas": [
+    {
+      "id": 1,
+      "agencia": "0019",
+      "conta": "12345-5"
+    },
+    {
+      "id": 2,
+      "agencia": "0059",
+      "conta": "12548-4"
+    },
+    {
+      "id": 3,
+      "agencia": "0034",
+      "conta": "70584-8"
+    }
+  ]
+}

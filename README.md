@@ -13,22 +13,23 @@
 
 - Melhorias de CSS, principalmente para tornar a aplicação responsiva;
 - Finalizar validações nos forms;
-- Componente para mensagens de error e sucesso;
+- Componente para mensagens de erro e sucesso;
 - Formulário de Login acessando o backend (mockado);
 
 <br>
 <b>Observações:</b>
 
-- Na pasta backend foi criado um json-server para mockar o comportamento de uma API. 
+- Na pasta <b>backend</b> foi criado um json-server para mockar o comportamento de uma API. 
 Para executar o mock, abra o terminal nessa pasta e execute o comando:
 
 ```
 npm start
 ```
 
-- Na pasta frontend encontra-se todos os aquivos referentes ao projeto de front.
-Para executar esse projeto, abra o terminar nessa pasta e execute os comando:
+- Na pasta <b>frontend</b> encontra-se todos os aquivos referentes ao projeto de front.
+Para executar o projeto, abra o terminal nessa pasta e execute o comando:
 ```
-npm install
 npm start
 ```
+Em seguida acesse pelo navegador o link:
+http://localhost:4200
